@@ -39,13 +39,12 @@ def banner():
       ' ╰━━━┻━━━┻╯╰━┻╯╱╰┻╯╱╱╰╯╱╱╰━━━┻╯╰━╯'
       ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '
       ]
- 
- for char in b:
+      for char in b:
         print(f'{random.choice(colors)}{char}{n}')
     #print('=============SON OF GENISYS==============')
     print(f'   Version: 1.2 | Author: Cryptonian{n}\n')
 
-def clr():
+   def clr():
     if os.name == 'nt':
         os.system('cls')
     else:
